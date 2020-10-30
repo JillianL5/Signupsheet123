@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #A9A9A9;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h1>Sign Up</h1>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Name">
+
+    <label for="lname"></label>
+    <input type="text" id="lname" name="lastname" placeholder="Username">
+
+    <label for="ename"></label>
+    <input type="text" id="ename" name="email" placeholder="Email">
+    
+     <label for="pname"></label>
+    <input type="text" id="pname" name="password" placeholder="Password">
+    
+     <label for="cpname"></label>
+    <input type="text" id="cpname" name="cpassword" placeholder="Confirm Password">
+    
+    
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
